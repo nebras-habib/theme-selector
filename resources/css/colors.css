@@ -1,0 +1,7 @@
+.custom-user-bg-color {
+    background-color: var(--primary-color) !important;
+}
+
+.custom-user-font-color {
+    color: var(--secondary-color) !important;
+}
