@@ -10,5 +10,10 @@ return [
         'primary_color' => env('SETTINGS_DARK_MODE_PRIMARY_COLOR'),
         'secondary_color' => env('SETTINGS_DARK_MODE_SECONDARY_COLOR'),
     ],
+    'opcua' => [
+        'server' => [
+            'endpoint' => env('OPCUA_SERVER_ENDPOINT'),
+        ],
+    ],
 
 ];
